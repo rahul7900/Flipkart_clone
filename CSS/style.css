@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root {
+    --main-bg-color: #1900ff;
+  }
+
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 115px;
+    padding: 12px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding:  0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    font-size: 23px;
+}
+nav ul li a:hover{
+    color: wheat;
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+
+        width: 30vw;
+        height: 33px;
+        border-radius: 5px;
+        /* display: flex;
+        text-align: center; */
+        padding: 0 1px;
+        font-size: larger;
+        font-family: 'Kalam', cursive;
+}
+.search button{
+    font-family: 'Kalam', cursive;
+    font-weight: 900;
+}
+main{
+    background-color:lightyellow;
+}
+.container{
+    min-height: calc(100vh - 56px - 12vh);
+}
+
+.slider {
+   margin:12px  auto;
+   width: 70vw;
+   overflow: hidden;
+}
+.card{
+    background-color: white;
+    border: 2px solid blue;
+    margin: auto;
+    max-width: 91vw;
+    font-family: 'Kalam', cursive;
+    overflow: scroll;
+ 
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card-item{
+    display: inline flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px;
+}
+.card h2{
+    font-family: 'Kalam', cursive;
+ 
+}
+
+
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Kalam', cursive;
+ 
+}
